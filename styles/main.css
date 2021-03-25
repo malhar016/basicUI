@@ -1,0 +1,38 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.grid-container {
+  display: grid;
+  grid-auto-rows: minmax(35px, auto);
+}
+
+ul,
+li,
+nav h2 {
+  display: inline;
+  margin: 0;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: bisque;
+  margin: 4rem;
+}
+
+nav ul {
+  position: absolute;
+  right: 0;
+}
+
+header {
+  background-color: rgb(116, 112, 112);
+}
