@@ -40,10 +40,11 @@ header {
 
 .info-section {
   background-image: url(/images/kitchen_table.jpg);
+  background-blend-mode: hard-light;
   background-position: center;
   background-size: cover;
   text-align: center;
-  padding-top: 25 qrem;
+  padding-top: 25rem;
   opacity: 100%;
   font-size: x-large;
 }
