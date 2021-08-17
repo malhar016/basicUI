@@ -1,54 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cooking Expert</title>
-    <link rel="stylesheet" href="/styles/main.css">
-</head>
-<body>
-    <main class="grid-container">
-        <header>
-            <div>
-                <figure><img src="/images/icon-chef.png" alt="Cook Chef">
-                    <figcaption>our chef</figcaption>
-                </figure>
-                
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../styles/utilities.css" />
+    <link rel="stylesheet" href="../styles/main.css" />
+    <title>Malhar ! Cloud hosting practice</title>
+  </head>
+  <body>
+    <!-- Nav Bar-->
+    <div class="navbar">
+      <div class="container flex">
+        <h1 class="logo">Malhar.</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="docs.html">Docs</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <!-- Show case -->
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easier Deployments</h1>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit
+            iure repudiandae voluptatem nam voluptatum at aut, nesciunt amet
+            accusamus temporibus. Distinctio fugit itaque assumenda sed iste
+            consectetur voluptate error nostrum?
+          </p>
+          <a href="features.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Reqeust a Demo</h2>
+          <form>
+            <div class="form-control">
+              <input type="text" name=""name" placeholder="Name" required>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Receipes</a></li>
-                </ul>
-            </nav>
-        </header>
-        <section class=" section--info">
-            <h2>Welcome to the Cooking Expert.</h2>
-            <p>Excited about cooking something delicious today?</p>
-            <button type="submit">Get Started!</button>
-        </section>
-        <section class=" section--contect">
-            <fieldset>
-                <legend>Contact Us:</legend>
-            <div class="form-item">
-            <label for="name">Name:</label>
-            <input class="form-element" type="text" name="name" id="name">
+            <div class="form-control">
+              <input type="text" name=""company" placeholder="Company Name"
+              required>
+            </div>
+            <div class="form-control">
+              <input type="text" name=""email" placeholder="Email" required>
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary"
+          </form>
         </div>
-        <div class="form-item">
-            <label for="email">Email:</label>
-            <input class="form-element" type="email" name="email" id="email">
+      </div>
+    </section>
+    <!-- Stats -->
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-heading text-center my-1">
+          Welcome to the best platform for building application of all types
+          with modern architechture and scaling
+        </h3>
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <i class="fas fa-server fa-3x"></i>
+            <h3>10,349,405</h3>
+            <p class="text-secondary">Deployments</p>
+          </div>
+          <div>
+            <i class="fas fa-upload fa-3x"></i>
+            <h3>983 TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
+          <div>
+            <i class="fas fa-project-diagram fa-3x"></i>
+            <h3>2,343,265</h3>
+            <p class="text-secondary">Projects</p>
+          </div>
         </div>
-        <div class="form-item">
-            <label for="query">Query:</label>
-            <textarea class="form-element" name="query" id="query" maxlength="300"></textarea>
+      </div>
+    </section>
+    <!-- CLI -->
+    <section class="cli">
+      <div class="container grid">
+        <div>
+          <img src="../images/cli.png" />
         </div>
-        <div class="form-item">
-            <button type="submit">Submit</button>    
+        <div class="cli-info">
+          <p>Easy to use, cross plantform CLI</p>
         </div>
-    </fieldset>
-        </section>
-    </main>
-</body>
+        <div class="cli-info">
+          <p>Deploy in seconds</p>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>
